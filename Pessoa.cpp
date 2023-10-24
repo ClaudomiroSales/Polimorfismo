@@ -13,5 +13,5 @@ Pessoa::~Pessoa( )
 }
 void Pessoa::print( ) const
 {
-    cout << name << '\n';
+    cout << "Nome: " << name << '\n';
 }
