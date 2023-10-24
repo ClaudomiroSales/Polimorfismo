@@ -14,9 +14,14 @@ int main( )
 {
     Funcionario p10("Catarina", "Professor");
 
+    cout << "Imprimindo Funcionario.\n";
+    p10.print( );
+
+    cout << "Converteu Funcionario para Pessoa - printPessoa( const Pessoa & ).\n";
     printPessoa( p10 );
 
-    cout << soma( 3.4, 7.8 ) << '\n';
+    cout << '\n';
+    cout << "Converteu para inteiro soma( 3.4, 7.8 ): " << soma( 3.4, 7.8 ) << '\n';
 
     return 0;
 }
