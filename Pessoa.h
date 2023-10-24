@@ -11,7 +11,7 @@ public:
     ~Pessoa( );
     void print( ) const;
 
-private:
+protected:
 
     string name;
 
